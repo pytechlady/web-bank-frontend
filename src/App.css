@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  min-height: 100vh;
+} */
+section {
+  width: 100%;
+  min-height: 400px;
+  padding: 1rem;
+}
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+.red {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #0C0535;
+  border-radius: 5px;
+  outline: #0C0535;
+  text-decoration: none;
+  color: #0C0535;
+}
+.redd {
+  text-decoration: none;
+  color: #0C0535;
+}
+.home {
+  margin-top: 250px;
+}
+.h-text {
+  color: #0C0535;
+}
+.dashboard {
+  margin-top: 100px;
+}
+.col2 {
+  padding: 80px;
+}
+.box-case {
+  display: flex;
+  margin-top: 20px;
+}
+.box {
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  background-color: blue;
+}
+.box2 {
+  background-color: purple;
+}
+.box3 {
+  background-color: red;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #edf2f7;
+}
+@media screen and (max-width:768px) {
+  .home {
+    margin-top: 100px;
+  }
+  .img {
+    margin-top: 50px;
+  }
+  .dashboard {
+    margin-top: 20px;
+  }
+  .col2 {
+    padding: 40px;
+  }
+}
+.login,
+.register {
+  text-transform: uppercase;
+}
+
