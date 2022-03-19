@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 
-const VERIFY_URL = "http://127.0.0.1:8000/webank/email-verify";
+const VERIFY_URL = "http://webankapp.herokuapp.com/webank/email-verify";
 
 
 

@@ -3,7 +3,7 @@ import AuthContext from "../context/AuthProvider";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const DEPOSIT_URL = "http://127.0.0.1:8000/webank/credit-account";
+const DEPOSIT_URL = "http://webankapp.herokuapp.com/webank/credit-account";
 
 const Deposit = () => {
   const amountRef = useRef();

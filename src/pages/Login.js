@@ -4,7 +4,7 @@ import AuthContext from '../context/AuthProvider';
 import { useNavigate } from "react-router-dom";
 
 
-const LOGIN_URL = "http://127.0.0.1:8000/webank/login";
+const LOGIN_URL = "http://webankapp.herokuapp.com/webank/login";
 
 
 const Login = () => {

@@ -3,7 +3,7 @@ import AuthContext from "../context/AuthProvider";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const WITHDRAW_URL = "http://127.0.0.1:8000/webank/debit-account";
+const WITHDRAW_URL = "http://webankapp.herokuapp.com/webank/debit-account";
 
 const Withdraw = () => {
   const amountRef = useRef();

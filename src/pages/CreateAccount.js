@@ -4,7 +4,7 @@ import AuthContext from '../context/AuthProvider';
 import { useNavigate } from "react-router-dom";
 
 
-const ACCOUNT_URL = "http://127.0.0.1:8000/webank/create-account";
+const ACCOUNT_URL = "http://webankapp.herokuapp.com/webank/create-account";
 
 const CreateAccount = () => {
     const fullnameRef = useRef();
