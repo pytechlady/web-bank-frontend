@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const USERNAME_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/;
 const PWD_REGEX = /^[a-zA-Z0-9]{8,24}$/;
-const REGISTER_URL = "http://webankapp.herokuapp.com/webank/register";
+const REGISTER_URL = "https://webankapp.herokuapp.com/webank/register";
 
 const Register = () => {
     const UserRef = useRef();
