@@ -4,7 +4,7 @@ import AuthContext from '../context/AuthProvider';
 import { useNavigate } from "react-router-dom";
 
 
-const LOGIN_URL = "https://webankapp.herokuapp.com/webank/login";
+const LOGIN_URL = "https://webbank-u3j6.onrender.com/webank/login";
 
 
 const Login = () => {
